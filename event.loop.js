@@ -2,7 +2,7 @@ const fs = require("fs");
 
 setImmediate(() => console.log("setImmediate"));
 
-setTimeout(() => console.log("Timer expired"), 0);
+setTimeout(() => console.log("Timer expired"), 10000);
 
 Promise.resolve("promise").then(console.log);
 
